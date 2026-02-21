@@ -49,7 +49,7 @@ Window Functions (RANK)
 Subqueries   
 Customer Segmentation Logic
 
-🎯 Key Business Insights :-
+🎯 Key Business Insights :-    
 Identified highest revenue generating category : Electronics,   
 Determined best-performing month per year : for 2022 its July & for 2023 its February,   
 Identified top 5 high-value customers : 3,1,5,2,4 is the unique customer_id,   
