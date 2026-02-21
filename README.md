@@ -1,6 +1,6 @@
 🛒 End-to-End Retail Sales Data Analysis with MySQL
 
-📌 Project Overview :-
+📌 Project Overview :-    
 This project performs structured SQL analysis on retail transaction data to extract business insights using MySQL.
 The analysis includes 13 business-driven problem statements focusing on revenue performance, customer behavior, category insights and sales trends.
 
@@ -10,7 +10,7 @@ MySQL 8
 SQL   
 GitHub   
 
-📊 Dataset Description :-
+📊 Dataset Description :-    
 The dataset contains :
 Transaction ID   
 Sale Date   
@@ -24,7 +24,7 @@ Price Per Unit
 COGS    
 Total Sale    
 
-🔍 Business Problems Solved :-
+🔍 Business Problems Solved :-    
 Q1 – Sales on specific date    
 Q2 – Category & quantity filtering      
 Q3 – Revenue by category    
@@ -39,7 +39,7 @@ Q11 – Revenue percentage by gender
 Q12 – Highest revenue weekday   
 Q13 – Highest revenue age group
 
-💡 SQL Concepts Demonstrated :-
+💡 SQL Concepts Demonstrated :-    
 SELECT & WHERE filtering   
 GROUP BY & HAVING   
 Aggregation Functions (SUM, AVG, COUNT)   
@@ -56,5 +56,5 @@ Identified top 5 high-value customers : 3,1,5,2,4 is the unique customer_id,
 Analyzed revenue contribution by gender : 49.01% for Male & 50.99% for Female,   
 Found peak sales hour : Evening ( after 5 pm )
 
-🚀 Conclusion :-
+🚀 Conclusion :-    
 This project demonstrates end-to-end SQL analysis skills for solving real-world retail business problems.
