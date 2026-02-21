@@ -1,7 +1,8 @@
--- SQL Retail Sales Analysis Project --
+-- End-to-End Retail Sales Data Analysis with MySQL --
 create database sql_project;
 
--- Createing Table 
+
+-- Createing Table --
 drop tables if exists retail_sales;
 create table retail_sales
 			(
@@ -20,6 +21,7 @@ create table retail_sales
 select * from retail_sales;
 select count(*) 
 	from retail_sales;
+
 
 -- DATA CLEANING --
 select * 
@@ -45,7 +47,6 @@ where
     
 
 -- DATA EXPLORATION --
-
 -- What are total no. of sales ?
 select count(*) total_sale 
 	from retail_sales
@@ -96,6 +97,7 @@ select category,
 	sum(total_sale) as total_sales 
     from retail_sales 
 group by category  
+order by total_sales desc
 
 -- Q4. Write a SQL query to find the average age of customers who purchased items from the 'Beauty' category.:
 select round(avg(age),2) as average_age_of_customers 
@@ -195,5 +197,4 @@ group by age_group
 order by total_revenue desc
 
 
-
--- END OF PROJECT, THANK YOU !
+-- END OF PROJECT , THANK YOU ! --
