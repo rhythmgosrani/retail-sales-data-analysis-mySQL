@@ -5,10 +5,10 @@ This project performs structured SQL analysis on retail transaction data to extr
 The analysis includes 13 business-driven problem statements focusing on revenue performance, customer behavior, category insights and sales trends.
 
 🛠 Tools Used :-
-MySQL Workbench (Mac)
-MySQL 8
-SQL
-GitHub
+MySQL Workbench (Mac), 
+MySQL 8, 
+SQL, 
+GitHub, 
 
 📊 Dataset Description :-
 The dataset contains :
